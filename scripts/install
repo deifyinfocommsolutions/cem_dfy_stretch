@@ -96,7 +96,26 @@ fi
 mkdir -p $final_path
 wget http://uwezolearning.com/cem.zip -P $final_path/
 unzip $final_path/cem.zip -d $parent_dir > /dev/null
-#chmod 755 $parent_dir/public/downloads
+chmod 775 $parent_dir/uploads/proposals
+chmod 775 $parent_dir/uploads/estimates
+chmod 775 $parent_dir/uploads/ticket_attachments
+chmod 775 $parent_dir/uploads/tasks
+chmod 775 $parent_dir/uploads/staff_profile_images
+chmod 775 $parent_dir/uploads/projects
+chmod 775 $parent_dir/uploads/newsfeed
+chmod 775 $parent_dir/uploads/leads
+chmod 775 $parent_dir/uploads/invoices
+chmod 775 $parent_dir/uploads/expenses
+chmod 775 $parent_dir/uploads/discussions
+chmod 775 $parent_dir/uploads/contracts
+chmod 775 $parent_dir/uploads/company
+chmod 775 $parent_dir/uploads/clients
+chmod 775 $parent_dir/uploads/client_profile_images
+chmod 775 $parent_dir/application/config
+chmod 775 $parent_dir/application/config/config.php
+chmod 775 $parent_dir/application/config/app-config-sample.php
+mkdir -p $parent_dir/temp
+chmod 775 $parent_dir/temp
 
 # Check if pure-ftpd is already installed
 if test -f /usr/sbin/pure-ftpd-ldap
