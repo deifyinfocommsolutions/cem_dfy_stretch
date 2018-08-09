@@ -1,1 +1,1 @@
-# cem_dfy_stretch
+# Deify Infocomm Solutions Custom Integration for CRM, Project Management, Acounting and Global Service Desk - Customer Experience Management for Debian Stretch
