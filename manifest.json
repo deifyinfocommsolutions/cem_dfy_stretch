@@ -1,6 +1,6 @@
 {
-    "name": "CEM",
-    "id": "cem",
+    "name": "CEMS",
+    "id": "cems",
     "packaging_format": 1,
     "description": {
         "en": "Customer Experience Management."
@@ -26,7 +26,7 @@
                 "name": "domain",
                 "type": "domain",
                 "ask": {
-                    "en": "Choose a domain name for CEM"
+                    "en": "Choose a domain name for CEMS"
                 },
                 "example": "example.com"
             },
@@ -34,10 +34,10 @@
                 "name": "path",
                 "type": "path",
                 "ask": {
-                    "en": "Choose a path for CEM"
+                    "en": "Choose a path for CEMS"
                 },
-                "example": "/cem",
-                "default": "/cem"
+                "example": "/cems",
+                "default": "/cems"
             },
 	    {
 		"name": "admin",
