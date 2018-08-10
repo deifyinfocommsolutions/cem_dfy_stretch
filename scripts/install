@@ -115,7 +115,7 @@ chmod 775 $parent_dir/application/config
 chmod 775 $parent_dir/application/config/config.php
 chmod 775 $parent_dir/application/config/app-config-sample.php
 mkdir -p $parent_dir/temp
-chmod 775 $parent_dir/temp
+chmod 777 $parent_dir/temp
 
 # Check if pure-ftpd is already installed
 if test -f /usr/sbin/pure-ftpd-ldap
