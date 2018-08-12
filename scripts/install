@@ -207,7 +207,8 @@ ynh_replace_string "__APPNAME__" "$appname" "$finalnginxconf"
 #=================================================
 
 chmod 755 $final_path
-chown -R $admin:$appname $final_path
+#chown -R $admin:$appname $final_path
+chown -R $appname:$appname $final_path
 
 #=================================================
 # RELOAD NGINX
