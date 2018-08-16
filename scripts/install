@@ -155,6 +155,8 @@ ynh_replace_string "__superadminemail__" "$admin@$domain" ../sources/install/htm
 
 cp ../sources/install/html.php $parent_dir/install/html.php
 rm -r $parent_dir/cem.zip
+ynh_replace_string "support.deifysolutions.com/cems" "support.deifysolutions.com" /etc/ssowat/conf.json
+ynh_replace_string "support.deifysolutions.com/cems" "support.deifysolutions.com/" /etc/ssowat/conf.json.persistent
 
 #=================================================
 # CREATE DEDICATED USER
