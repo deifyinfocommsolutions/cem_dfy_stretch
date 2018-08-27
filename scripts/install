@@ -164,6 +164,8 @@ rm -r $parent_dir/cem.zip
 
 ynh_system_user_create $appname	# Create a dedicated system user for the app.
 
+ynh_install_php71
+
 #=================================================
 # PHP-FPM CONFIGURATION
 #=================================================
