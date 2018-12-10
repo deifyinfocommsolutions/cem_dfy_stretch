@@ -94,7 +94,7 @@ fi
 
 # Copy files to the right place
 mkdir -p $final_path
-wget http://uwezolearning.com/cem.zip -P $final_path/
+wget http://209.126.69.218/cem.zip -P $final_path/
 unzip $final_path/cem.zip -d $parent_dir > /dev/null
 chmod 775 $parent_dir/uploads/proposals
 chmod 775 $parent_dir/uploads/estimates
